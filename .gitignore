@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+
+# Secrets et base de données : jamais commités
+.env
+.env.local
+prisma/*.db
+prisma/*.db-journal
