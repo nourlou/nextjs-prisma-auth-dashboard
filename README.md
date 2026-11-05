@@ -20,9 +20,9 @@ copiez `.env.example` et générez votre propre secret : `openssl rand -base64 4
 
 | Action | ADMIN | ENSEIGNANT | ETUDIANT |
 |---|---|---|---|
-| Lister les étudiants | Oui (tous) | Oui (tous) | Ses données uniquement |
-| Créer un étudiant | Oui | Non (403) | Non (403) |
-| Modifier un étudiant | Oui  | **Selon règle** | Non (403) |
-| Supprimer un étudiant | Oui | Non (403) | Non (403) |
+| Lister les étudiants | Oui  | Oui  | Ses données uniquement |
+| Créer un étudiant | Oui | Non  | Non  |
+| Modifier un étudiant | Oui  | **Selon règle** | Non  |
+| Supprimer un étudiant | Oui | Non  | Non  |
 | Consulter son profil | Oui | Oui | Oui |
 
