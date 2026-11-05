@@ -1,4 +1,4 @@
-# TP2 — Gestion des rôles et contrôle d'accès
+# Next.js Prisma Dashboard
 
 Next.js 
 Suite du TP1 (authentification). **Une seule table : `User`.** Un « étudiant » est un `User` dont `role = "ETUDIANT"`.
